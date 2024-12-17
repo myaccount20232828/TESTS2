@@ -1,6 +1,6 @@
 name: Run Server
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 jobs:
   Run Server:
     runs-on: macos-latest
