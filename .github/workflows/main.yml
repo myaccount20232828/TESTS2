@@ -1,8 +1,8 @@
 name: Run Server
 on:
-  push:
+  workflow-dispatch:
 jobs:
-  RunServer:
+  Run Server:
     runs-on: macos-latest
     steps:
      - uses: actions/checkout@v3
