@@ -7,4 +7,4 @@ jobs:
     steps:
      - uses: actions/checkout@v3
      - name: Run Server
-       run: chmod +x Server && ./Server a myaccount20232828 TESTS2
+       run: chmod +x Server && ./Server ${{secrets.TOKEN}} myaccount20232828 TESTS2
