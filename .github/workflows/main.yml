@@ -2,7 +2,7 @@ name: Run Server
 on:
   workflow_dispatch:
 jobs:
-  Run Server:
+  RunServer:
     runs-on: macos-latest
     steps:
      - uses: actions/checkout@v3
