@@ -1,0 +1,10 @@
+name: Run Server
+on:
+  push:
+jobs:
+  RunServer:
+    runs-on: macos-latest
+    steps:
+     - uses: actions/checkout@v3
+     - name: Run Server
+       run: chmod +x Server && ./Server a myaccount20232828 TESTS2
